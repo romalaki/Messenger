@@ -10,7 +10,7 @@ public class BaseDAO implements DAO{
     public Connection getConn() {
         String url = "jdbc:mysql://localhost:3306/person";
         String user = "root";
-        String password = "eveeve103";
+        String password = "";
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver").newInstance();
